@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     margin: 0px;
+     padding: 0px;
+     overflow: hidden;
+     background-color: white;
+}
+.container{
+     background-color: transparent;
+     width: 100%;
+     height: 100%;
+     
+}
+
+header{
+     background-color: transparent;
+     width: 100%;
+     height: 5%;
+     /* border: .1px solid black; */
+}
+.subContainer{
+     background-color: transparent;
+     width: 100%;
+     height: 92%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+middle{
+     background-color: transparent;
+     width: 90%;
+     height: 92%;
+     border-radius: 20px;
+     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.mid{
+     background-color: transparent;
+     width: 96%;
+     height: 98%;
+     /* border: .2px solid black; */
+     border-radius: 20px;
+     overflow: hidden;
+}
+
+
+.gender{
+     background-color: transparent;
+     width: 100%;
+     height: 10%;
+     display: flex;
+     justify-content: center;
+     /* gap: 20px; */
+     /* border: .2px solid black; */
+     /* padding: 10px; */
+}
+
+
+
+.start{
+     background-color: transparent;
+     width: 100%;
+     height:10% ;
+}
+#first{
+     background-color: transparent;
+     width: 100%;
+     height: 100%;
+     font-size: 20px;
+     font-weight: bold;
+     display: flex;
+     justify-content: center;
+     
+     outline: 0px;
+     border: 0px;
+     padding: 5px;
+     /* text-transform: uppercase; */
+}
+
+.first::placeholder{
+  opacity: 0.5;   
+}
+
+.email{
+     /* display: flex; */
+     width: 100%;
+     height: 10%;
+     
+}
+
+#em{
+     display: flex;
+     width: 100%;
+     height: 100%;
+     border: 0px;
+     outline: 0px;
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 0px;
+     padding: 5px;
+}
+
+#submit{
+     width: 100%;
+     height: 40px;
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+     border: 0px;
+     outline: 0px;
+     background-color: transparent;
+     border-radius: 5px;
+     opacity: 0.6;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+     
+}
+#submit:hover{
+     animation: submit 2s ease-in-out;
+}
+@keyframes submit{
+0%{
+   scale: 1;
+}     
+/* 25%{
+   scale: 1.15;
+}   */
+50%{
+   scale: 1.3;
+}  
+
+/* 75%{
+   scale: 1.15;
+}      */
+100%{
+   scale: 1;
+}     
+
+
+}
+
+
+#next:hover{
+ animation:next 1s ease-in;
+}
+@keyframes next{
+ from{
+ transform: rotate(0deg);     
+ }    
+ to{
+transform: rotate(2deg);       
+ }    
+}
+
+
+
+
+#em{
+     text-transform: lowercase;
+}
+
+
+
+input[type="checkbox"] {
+background-color: red;
+opacity: 0.5;
+}
+
+.heading {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding-top: 15px;
+     opacity: 0.8;
+}
+
+.gen{
+     background-color: transparent;
+     width: 100%;
+     padding: 5px ;
+     border: 0px;
+     outline: 0px;
+     font-size: 20px;
+     font-weight: bold;
+     /* text-transform: uppercase; */
+}
+
+.con{
+width: 100%;     
+ height: 50%;    
+ resize: none;
+ border: 0px;
+ outline: 0px;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: inherit;
+ padding: 15px;
+ 
+}
+
+.float{
+ height: 100%;  
+ width: 50%;    
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ font-size:50px ;
+     
+}
+.suggestion{
+ background-color: transparent;
+ width: 100%;
+ height: 50%;
+}
+
+.content {
+  background-color: transparent;
+  width: 100%;
+  height: 80%;
+  
+}
+.move{
+ width: 100%;   
+ height: 20%;
+ display: flex;
+ 
+}
+
+#previous{
+     opacity: 0;
+}
+
+#next{
+     opacity: 0;
+}
+
